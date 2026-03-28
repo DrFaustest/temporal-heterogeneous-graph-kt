@@ -1,0 +1,13 @@
+{
+  "relation_modes": [
+    "none",
+    "cooccurrence",
+    "transition"
+  ],
+  "default_relation_mode": "none",
+  "graph_builder": {
+    "interaction_edge_split": "train",
+    "include_student_exposure_edges": true,
+    "include_reverse_edges": false
+  }
+}

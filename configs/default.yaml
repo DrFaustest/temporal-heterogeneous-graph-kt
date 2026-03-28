@@ -1,0 +1,16 @@
+{
+  "project": {
+    "name": "thgkt",
+    "seed": 42,
+    "source_dataset": "assistments"
+  },
+  "paths": {
+    "artifacts_dir": "artifacts",
+    "data_dir": "data",
+    "config_snapshot_dir": "artifacts/config_snapshots"
+  },
+  "runtime": {
+    "device": "cpu",
+    "num_workers": 0
+  }
+}

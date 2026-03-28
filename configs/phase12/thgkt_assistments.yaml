@@ -1,0 +1,44 @@
+{
+  "run": {
+    "name": "phase12_thgkt_assistments",
+    "notes": "Full THGKT end-to-end smoke run on the ASSISTments fixture"
+  },
+  "dataset": {
+    "name": "assistments_fixture",
+    "relation_mode": "transition"
+  },
+  "preprocessing": {
+    "min_interactions_per_student": 4,
+    "drop_interactions_without_concepts": true
+  },
+  "split": {
+    "strategy": "student_chronological",
+    "train_ratio": 0.5,
+    "val_ratio": 0.25,
+    "test_ratio": 0.25,
+    "random_seed": 43
+  },
+  "graph": {
+    "interaction_edge_split": "train",
+    "include_student_exposure_edges": true,
+    "include_reverse_edges": false
+  },
+  "model": {
+    "type": "thgkt",
+    "hidden_dim": 16,
+    "temporal_hidden_dim": 12,
+    "use_graph_encoder": true,
+    "use_temporal_encoder": true,
+    "use_time_features": true,
+    "use_prerequisite_edges": true,
+    "dropout": 0.1
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 2,
+    "learning_rate": 0.01,
+    "device": "cpu",
+    "random_seed": 43,
+    "early_stopping_patience": 3
+  }
+}

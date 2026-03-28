@@ -1,0 +1,5 @@
+question_id,bundle_id,correct_answer,tags,part
+q2844,b4957,d,skill_add;skill_foundation,part1
+q2845,b4957,b,skill_sub;skill_foundation,part1
+q4353,b5001,c,skill_mul,part2
+q3944,b5002,a,skill_div,part2

@@ -1,0 +1,36 @@
+{
+  "run": {
+    "name": "baseline_toy_phase8"
+  },
+  "dataset": {
+    "name": "synthetic_toy",
+    "relation_mode": "none"
+  },
+  "preprocessing": {
+    "min_interactions_per_student": 4,
+    "drop_interactions_without_concepts": true
+  },
+  "split": {
+    "strategy": "student_chronological",
+    "train_ratio": 0.5,
+    "val_ratio": 0.25,
+    "test_ratio": 0.25,
+    "random_seed": 42
+  },
+  "graph": {
+    "interaction_edge_split": "train",
+    "include_student_exposure_edges": true,
+    "include_reverse_edges": false
+  },
+  "model": {
+    "type": "logistic_baseline"
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 4,
+    "learning_rate": 0.01,
+    "device": "cpu",
+    "random_seed": 42,
+    "early_stopping_patience": 3
+  }
+}

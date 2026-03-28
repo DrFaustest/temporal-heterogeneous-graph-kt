@@ -1,0 +1,33 @@
+{
+  "canonical_tables": {
+    "interactions": [
+      "student_id",
+      "interaction_id",
+      "seq_idx",
+      "timestamp",
+      "question_id",
+      "correct",
+      "concept_ids",
+      "elapsed_time",
+      "attempt_count",
+      "source_dataset"
+    ],
+    "questions": [
+      "question_id",
+      "source_dataset"
+    ],
+    "concepts": [
+      "concept_id",
+      "source_dataset"
+    ],
+    "question_concept_map": [
+      "question_id",
+      "concept_id"
+    ],
+    "concept_relations": [
+      "source_concept_id",
+      "target_concept_id",
+      "relation_type"
+    ]
+  }
+}

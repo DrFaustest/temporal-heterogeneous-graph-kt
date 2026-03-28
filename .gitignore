@@ -1,0 +1,47 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local virtual environments / interpreters
+.python312/
+.venv/
+venv/
+.tmp-python/
+.tmp_pytest/
+
+# Test / tool caches
+.pytest_cache/
+pytest-cache-files-*/
+
+# Generated experiment outputs
+artifacts/
+
+# Large raw datasets and downloaded archives
+data/raw/
+*.zip
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Model checkpoints and other large ML binaries
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
