@@ -1,0 +1,50 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.5,
+    "auc": 0.3333333333333333,
+    "bce_loss": 0.7823650503587114,
+    "f1": 0.5
+  },
+  "checkpoint_path": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\config\\training_config.json",
+  "created_at": "2026-03-22T19:21:51+00:00",
+  "extra": {},
+  "metrics_path": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\metrics.json",
+  "model_name": "THGKTModel",
+  "run_dir": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments",
+  "run_name": "phase12_thgkt_assistments",
+  "train_history": [
+    {
+      "accuracy": 0.0,
+      "auc": 0.0,
+      "bce_loss": 0.8062978583179927,
+      "epoch": 1.0,
+      "f1": 0.0,
+      "loss": 0.8062978982925415
+    },
+    {
+      "accuracy": 0.75,
+      "auc": 0.6666666666666666,
+      "bce_loss": 0.5614079558226597,
+      "epoch": 2.0,
+      "f1": 0.8,
+      "loss": 0.5614079236984253
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.25,
+      "auc": 0.3333333333333333,
+      "bce_loss": 0.8294117571958382,
+      "epoch": 1.0,
+      "f1": 0.0
+    },
+    {
+      "accuracy": 0.5,
+      "auc": 0.3333333333333333,
+      "bce_loss": 0.7823650503587114,
+      "epoch": 2.0,
+      "f1": 0.5
+    }
+  ]
+}

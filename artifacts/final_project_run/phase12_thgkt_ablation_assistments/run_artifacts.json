@@ -1,0 +1,50 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.0,
+    "auc": 0.0,
+    "bce_loss": 0.9613844212404624,
+    "f1": 0.0
+  },
+  "checkpoint_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\config\\training_config.json",
+  "created_at": "2026-03-22T19:07:27+00:00",
+  "extra": {},
+  "metrics_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\metrics\\metrics.json",
+  "model_name": "THGKTModel",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments",
+  "run_name": "phase12_thgkt_ablation_assistments",
+  "train_history": [
+    {
+      "accuracy": 0.5,
+      "auc": 0.6666666666666666,
+      "bce_loss": 0.7287216241301302,
+      "epoch": 1.0,
+      "f1": 0.5,
+      "loss": 0.7287216186523438
+    },
+    {
+      "accuracy": 0.75,
+      "auc": 1.0,
+      "bce_loss": 0.5401758530027234,
+      "epoch": 2.0,
+      "f1": 0.8,
+      "loss": 0.5401758849620819
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.0,
+      "auc": 0.0,
+      "bce_loss": 0.8205769139856263,
+      "epoch": 1.0,
+      "f1": 0.0
+    },
+    {
+      "accuracy": 0.0,
+      "auc": 0.0,
+      "bce_loss": 0.9613844212404624,
+      "epoch": 2.0,
+      "f1": 0.0
+    }
+  ]
+}

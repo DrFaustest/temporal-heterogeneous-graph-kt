@@ -1,0 +1,131 @@
+{
+  "project_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project",
+  "output_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070"
+  },
+  "resolved_configs": [
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\resolved_configs\\baseline_assistments_cuda.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\resolved_configs\\thgkt_assistments_cuda.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\resolved_configs\\thgkt_ablation_assistments_cuda.json"
+  ],
+  "verification": {
+    "command": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\.python312\\python.exe -m pytest -q",
+    "stdout": [
+      "....................................                                     [100%]",
+      "============================== warnings summary ===============================",
+      ".python312\\Lib\\site-packages\\torch_geometric\\llm\\utils\\backend_utils.py:26",
+      "  D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\.python312\\Lib\\site-packages\\torch_geometric\\llm\\utils\\backend_utils.py:26: DeprecationWarning: `torch_geometric.distributed` has been deprecated since 2.7.0 and will no longer be maintained. For distributed training, refer to our tutorials on distributed training at https://pytorch-geometric.readthedocs.io/en/latest/tutorial/distributed.html or cuGraph examples at https://github.com/rapidsai/cugraph-gnn/tree/main/python/cugraph-pyg/cugraph_pyg/examples",
+      "    from torch_geometric.distributed import (",
+      "",
+      "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
+      "36 passed, 1 warning in 13.59s"
+    ],
+    "stderr": []
+  },
+  "suite": {
+    "baseline": {
+      "run_name": "phase12_baseline_assistments",
+      "config_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\resolved_configs\\baseline_assistments_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_baseline_assistments\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6666666666666666,
+        "accuracy": 0.25,
+        "f1": 0.4,
+        "bce_loss": 0.7310113239836281
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "bce_loss": 0.62609167877307
+      }
+    },
+    "thgkt": {
+      "run_name": "phase12_thgkt_assistments",
+      "config_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\resolved_configs\\thgkt_assistments_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\config\\experiment_config.json",
+        "concept_report": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\explainability\\concept_importance.json",
+        "concept_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\explainability\\concept_importance.svg",
+        "prerequisite_report": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_assistments\\explainability\\prerequisite_influence.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.3333333333333333,
+        "accuracy": 0.5,
+        "f1": 0.5,
+        "bce_loss": 1.0789394863792978
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 0.75,
+        "f1": 0.8571428571428571,
+        "bce_loss": 0.4473102130681437
+      }
+    },
+    "ablation": {
+      "run_name": "phase12_thgkt_ablation_assistments",
+      "config_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\resolved_configs\\thgkt_ablation_assistments_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\config\\experiment_config.json",
+        "concept_report": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\explainability\\concept_importance.json",
+        "concept_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\explainability\\concept_importance.svg",
+        "prerequisite_report": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\phase12_thgkt_ablation_assistments\\explainability\\prerequisite_influence.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.0,
+        "accuracy": 0.0,
+        "f1": 0.0,
+        "bce_loss": 0.9613844212404624
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 0.5,
+        "f1": 0.6666666666666666,
+        "bce_loss": 0.5543786171931464
+      }
+    },
+    "comparison": {
+      "metric": "auc",
+      "output": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\final_project_run\\ablation_comparison.svg"
+    }
+  }
+}

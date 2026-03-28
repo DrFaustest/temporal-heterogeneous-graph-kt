@@ -1,0 +1,159 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.72038503337991,
+    "auc": 0.7253846436695549,
+    "bce_loss": 0.5541553242747954,
+    "f1": 0.8096731013104128
+  },
+  "checkpoint_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\config\\training_config.json",
+  "created_at": "2026-03-28T00:27:29+00:00",
+  "extra": {
+    "best_epoch": 6,
+    "completed_epochs": 9,
+    "stopped_early": true
+  },
+  "metrics_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\metrics\\metrics.json",
+  "model_name": "THGKTModel",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03",
+  "run_name": "ednet1k_thgkt_cooccurrence_graph_seed03",
+  "train_history": [
+    {
+      "accuracy": 0.704926198342991,
+      "auc": 0.6819492358304722,
+      "bce_loss": 0.5821415641691542,
+      "epoch": 1.0,
+      "f1": 0.8104818643272526,
+      "loss": 0.5821258988721573
+    },
+    {
+      "accuracy": 0.7165983164256421,
+      "auc": 0.7283107134150328,
+      "bce_loss": 0.5569224414699989,
+      "epoch": 2.0,
+      "f1": 0.8113512697050187,
+      "loss": 0.5569178911728502
+    },
+    {
+      "accuracy": 0.7263776586029985,
+      "auc": 0.7516366037339608,
+      "bce_loss": 0.5406995133517134,
+      "epoch": 3.0,
+      "f1": 0.8145383339960538,
+      "loss": 0.5407039942373232
+    },
+    {
+      "accuracy": 0.7337273849253129,
+      "auc": 0.7664394511563974,
+      "bce_loss": 0.5292072964691813,
+      "epoch": 4.0,
+      "f1": 0.8179809627578274,
+      "loss": 0.5292126510139903
+    },
+    {
+      "accuracy": 0.7388744071239215,
+      "auc": 0.7781927097667956,
+      "bce_loss": 0.5190374927173639,
+      "epoch": 5.0,
+      "f1": 0.8204328002618417,
+      "loss": 0.5190277807909301
+    },
+    {
+      "accuracy": 0.7447187678139545,
+      "auc": 0.7874070897079476,
+      "bce_loss": 0.5109843173773894,
+      "epoch": 6.0,
+      "f1": 0.8233816558304808,
+      "loss": 0.5109777166734908
+    },
+    {
+      "accuracy": 0.7502255281232186,
+      "auc": 0.7969558545090534,
+      "bce_loss": 0.5017028264496839,
+      "epoch": 7.0,
+      "f1": 0.8266359358494191,
+      "loss": 0.5016874408292331
+    },
+    {
+      "accuracy": 0.7566731419526584,
+      "auc": 0.8069729200044756,
+      "bce_loss": 0.4920189761571135,
+      "epoch": 8.0,
+      "f1": 0.8304931836407378,
+      "loss": 0.49201238848835005
+    },
+    {
+      "accuracy": 0.7606634677646981,
+      "auc": 0.8163202442988609,
+      "bce_loss": 0.48185779633177733,
+      "epoch": 9.0,
+      "f1": 0.8325453341542465,
+      "loss": 0.48186313371088774
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.715804999223723,
+      "auc": 0.7002605581483129,
+      "bce_loss": 0.5645074593598638,
+      "epoch": 1.0,
+      "f1": 0.8219098117429586
+    },
+    {
+      "accuracy": 0.7201521502872225,
+      "auc": 0.7150317657039126,
+      "bce_loss": 0.5554981017938532,
+      "epoch": 2.0,
+      "f1": 0.8184702150158618
+    },
+    {
+      "accuracy": 0.7212389380530974,
+      "auc": 0.7211822608165762,
+      "bce_loss": 0.5522420540833937,
+      "epoch": 3.0,
+      "f1": 0.8157422135563652
+    },
+    {
+      "accuracy": 0.7204109092790975,
+      "auc": 0.7224504818758107,
+      "bce_loss": 0.5542714621979439,
+      "epoch": 4.0,
+      "f1": 0.8111839231105287
+    },
+    {
+      "accuracy": 0.7112508409667236,
+      "auc": 0.7247187455533226,
+      "bce_loss": 0.5614660554264936,
+      "epoch": 5.0,
+      "f1": 0.7968172465905574
+    },
+    {
+      "accuracy": 0.72038503337991,
+      "auc": 0.7253846436695549,
+      "bce_loss": 0.5541553242747954,
+      "epoch": 6.0,
+      "f1": 0.8096731013104128
+    },
+    {
+      "accuracy": 0.7193241215132226,
+      "auc": 0.7246701734351922,
+      "bce_loss": 0.5601006138062854,
+      "epoch": 7.0,
+      "f1": 0.8083128633785145
+    },
+    {
+      "accuracy": 0.7074470837861616,
+      "auc": 0.7182060356059374,
+      "bce_loss": 0.574520030377389,
+      "epoch": 8.0,
+      "f1": 0.7939643547035027
+    },
+    {
+      "accuracy": 0.7152874812399731,
+      "auc": 0.7120810796643585,
+      "bce_loss": 0.5803129549932816,
+      "epoch": 9.0,
+      "f1": 0.8116795317233471
+    }
+  ]
+}

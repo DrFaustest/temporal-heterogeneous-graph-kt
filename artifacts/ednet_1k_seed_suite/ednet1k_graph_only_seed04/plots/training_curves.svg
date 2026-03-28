@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <text x="20" y="26" font-size="20" font-family="Segoe UI" font-weight="600">Training Curves</text>
+  <line x1="60" y1="40" x2="60" y2="370" stroke="#666" />
+  <line x1="60" y1="370" x2="730" y2="370" stroke="#666" />
+  <polyline fill="none" stroke="#1f6feb" stroke-width="3" points="60.0,40.0 95.3,164.8 130.5,184.6 165.8,200.7 201.1,213.8 236.3,224.8 271.6,234.0 306.8,241.8 342.1,248.4 377.4,254.2 412.6,259.2 447.9,263.5 483.2,267.3 518.4,270.5 553.7,273.2 588.9,276.0 624.2,278.3 659.5,280.1 694.7,281.8 730.0,283.3" />
+  <polyline fill="none" stroke="#d73a49" stroke-width="3" points="60.0,294.6 95.3,309.3 130.5,318.2 165.8,325.8 201.1,332.0 236.3,337.4 271.6,342.4 306.8,346.2 342.1,349.4 377.4,352.5 412.6,355.3 447.9,357.5 483.2,359.6 518.4,361.4 553.7,363.0 588.9,364.8 624.2,366.2 659.5,367.5 694.7,368.8 730.0,370.0" />
+  <text x="550" y="36" font-size="13" font-family="Segoe UI" fill="#1f6feb">Train Loss</text>
+  <text x="640" y="36" font-size="13" font-family="Segoe UI" fill="#d73a49">Val BCE</text>
+</svg>

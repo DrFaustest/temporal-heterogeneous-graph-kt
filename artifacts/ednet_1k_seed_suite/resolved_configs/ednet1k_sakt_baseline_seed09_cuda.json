@@ -1,0 +1,51 @@
+{
+  "run": {
+    "name": "ednet1k_sakt_baseline_seed09"
+  },
+  "dataset": {
+    "name": "ednet_path",
+    "path": "data/raw/ednet/KT1",
+    "contents_path": "data/raw/ednet/contents",
+    "max_users": 1000,
+    "relation_mode": "transition"
+  },
+  "preprocessing": {
+    "min_interactions_per_student": 4,
+    "drop_interactions_without_concepts": true
+  },
+  "split": {
+    "strategy": "student_chronological",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "random_seed": 9
+  },
+  "graph": {
+    "interaction_edge_split": "train",
+    "include_student_exposure_edges": true,
+    "include_reverse_edges": false
+  },
+  "sequence": {
+    "max_history_length": 128
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "device": "cuda",
+    "random_seed": 9,
+    "early_stopping_patience": 3
+  },
+  "explainability": {
+    "enabled": false
+  },
+  "model": {
+    "type": "sakt_baseline",
+    "hidden_dim": 64,
+    "attention_heads": 4,
+    "dropout": 0.1,
+    "gradient_clip_norm": 5.0,
+    "elapsed_time_scale": 5000.0,
+    "attempt_count_scale": 5.0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\canonical_bundle.json",
+    "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\checkpoints\\best_checkpoint.pt",
+    "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\config\\experiment_config.json",
+    "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\graph.json",
+    "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\metrics\\metrics.json",
+    "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\plots\\roc_curve.svg",
+    "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\sequences.json",
+    "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\splits.json",
+    "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\metrics\\test_metrics.json",
+    "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\metrics\\test_predictions.json",
+    "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.7353063822016783,
+    "auc": 0.7629715699582857,
+    "bce_loss": 0.5283796766129254,
+    "f1": 0.8233599423804093
+  },
+  "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_full_cuda.json",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_thgkt_full",
+  "run_name": "ednet20k_thgkt_full",
+  "test_metrics": {
+    "accuracy": 0.729500625331439,
+    "auc": 0.7612869593318308,
+    "bce_loss": 0.5351971654864374,
+    "f1": 0.817851165704569
+  }
+}

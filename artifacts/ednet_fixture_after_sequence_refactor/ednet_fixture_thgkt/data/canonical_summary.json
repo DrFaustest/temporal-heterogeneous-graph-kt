@@ -1,0 +1,19 @@
+{
+  "avg_interactions_per_student": 4.0,
+  "created_at": "2026-03-22T19:39:42+00:00",
+  "dataset_name": "KT1",
+  "extra": {
+    "student_interaction_counts": {
+      "u100": 4,
+      "u101": 4
+    }
+  },
+  "missing_concept_interactions": 0,
+  "num_concept_relations": 6,
+  "num_concepts": 5,
+  "num_interactions": 8,
+  "num_question_concept_links": 6,
+  "num_questions": 4,
+  "num_students": 2,
+  "source_dataset": "ednet"
+}

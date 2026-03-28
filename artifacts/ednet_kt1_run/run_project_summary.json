@@ -1,0 +1,49 @@
+{
+  "project_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project",
+  "output_root": "artifacts\\ednet_kt1_run",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070"
+  },
+  "source_configs": [
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_kt1.yaml"
+  ],
+  "resolved_configs": [
+    "artifacts\\ednet_kt1_run\\resolved_configs\\ednet_kt1_cuda.json"
+  ],
+  "heartbeat_seconds": 15,
+  "runs": [
+    {
+      "run_name": "ednet_kt1_thgkt",
+      "config_path": "artifacts\\ednet_kt1_run\\resolved_configs\\ednet_kt1_cuda.json",
+      "run_dir": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\data\\splits.json",
+        "graph": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\data\\graph.json",
+        "sequences": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7542469063752392,
+        "accuracy": 0.7317816968267211,
+        "f1": 0.8139629242854577,
+        "bce_loss": 0.5332238087409007
+      },
+      "test_metrics": {
+        "auc": 0.7541895127276856,
+        "accuracy": 0.7273400480875136,
+        "f1": 0.8082633787173175,
+        "bce_loss": 0.5381788028844754
+      }
+    }
+  ]
+}

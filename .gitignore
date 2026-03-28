@@ -16,7 +16,11 @@ venv/
 pytest-cache-files-*/
 
 # Generated experiment outputs
-artifacts/
+artifacts/**/data/canonical_bundle.json
+artifacts/**/data/sequences.json
+artifacts/**/data/graph.json
+artifacts/**/data/splits.json
+
 
 # Large raw datasets and downloaded archives
 data/raw/

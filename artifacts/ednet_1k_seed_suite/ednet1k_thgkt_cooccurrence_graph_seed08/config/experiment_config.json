@@ -1,0 +1,52 @@
+{
+  "dataset": {
+    "contents_path": "data/raw/ednet/contents",
+    "max_users": 1000,
+    "name": "ednet_path",
+    "path": "data/raw/ednet/KT1",
+    "relation_mode": "cooccurrence"
+  },
+  "explainability": {
+    "enabled": false
+  },
+  "graph": {
+    "include_reverse_edges": false,
+    "include_student_exposure_edges": true,
+    "interaction_edge_split": "train"
+  },
+  "model": {
+    "dropout": 0.1,
+    "hidden_dim": 32,
+    "temporal_hidden_dim": 32,
+    "type": "thgkt",
+    "use_graph_encoder": true,
+    "use_prerequisite_edges": true,
+    "use_temporal_encoder": true,
+    "use_time_features": true
+  },
+  "preprocessing": {
+    "drop_interactions_without_concepts": true,
+    "min_interactions_per_student": 4
+  },
+  "run": {
+    "name": "ednet1k_thgkt_cooccurrence_graph_seed08"
+  },
+  "sequence": {
+    "max_history_length": 128
+  },
+  "split": {
+    "random_seed": 8,
+    "strategy": "student_chronological",
+    "test_ratio": 0.15,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15
+  },
+  "training": {
+    "batch_size": 32,
+    "device": "cuda",
+    "early_stopping_patience": 3,
+    "epochs": 20,
+    "learning_rate": 0.001,
+    "random_seed": 8
+  }
+}

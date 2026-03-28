@@ -1,0 +1,2266 @@
+{
+  "project_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project",
+  "output_root": "artifacts\\ednet_1k_seed_suite",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070"
+  },
+  "source_configs": [
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_dkt_baseline_seed10.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_graph_only_seed10.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_sakt_baseline_seed10.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_cooccurrence_graph_seed10.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_full_seed10.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_prereq_seed10.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed01.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed02.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed03.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed04.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed05.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed06.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed07.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed08.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed09.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\generated_configs\\ednet1k_thgkt_no_temporal_seed10.json"
+  ],
+  "resolved_configs": [
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed10_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed10_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed10_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed10_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed10_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed10_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed01_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed02_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed03_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed04_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed05_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed06_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed07_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed08_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed09_cuda.json",
+    "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed10_cuda.json"
+  ],
+  "heartbeat_seconds": 30,
+  "runs": [
+    {
+      "run_name": "ednet1k_dkt_baseline_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.722746524914635,
+        "accuracy": 0.7263882419914092,
+        "f1": 0.82206441624878,
+        "bce_loss": 0.5533045186555811
+      },
+      "test_metrics": {
+        "auc": 0.7204134855719794,
+        "accuracy": 0.7193252695638999,
+        "f1": 0.8159311087190528,
+        "bce_loss": 0.5621579235856385
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7240293687312915,
+        "accuracy": 0.7259224758060343,
+        "f1": 0.8239771329810218,
+        "bce_loss": 0.5494929892988935
+      },
+      "test_metrics": {
+        "auc": 0.72377737110147,
+        "accuracy": 0.7207393752683013,
+        "f1": 0.8188029426703587,
+        "bce_loss": 0.556899344412297
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7240220682627598,
+        "accuracy": 0.7257154686125343,
+        "f1": 0.8214766909188898,
+        "bce_loss": 0.5531744890635405
+      },
+      "test_metrics": {
+        "auc": 0.7221265417649042,
+        "accuracy": 0.7204616045049368,
+        "f1": 0.8161373903800159,
+        "bce_loss": 0.5611150095945332
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.723422507153711,
+        "accuracy": 0.7261553588987217,
+        "f1": 0.8241237764445847,
+        "bce_loss": 0.5505702907920165
+      },
+      "test_metrics": {
+        "auc": 0.7242897183229416,
+        "accuracy": 0.7213959243453448,
+        "f1": 0.8188787654929001,
+        "bce_loss": 0.556728922197147
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7248935048049427,
+        "accuracy": 0.7268281322775967,
+        "f1": 0.8238533028548546,
+        "bce_loss": 0.54941295219949
+      },
+      "test_metrics": {
+        "auc": 0.7239129500180039,
+        "accuracy": 0.7193757733390571,
+        "f1": 0.8174995483881563,
+        "bce_loss": 0.5565317535815648
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7225557651058103,
+        "accuracy": 0.7262329865962842,
+        "f1": 0.8191143785262438,
+        "bce_loss": 0.554758295135684
+      },
+      "test_metrics": {
+        "auc": 0.7202121936679223,
+        "accuracy": 0.7187949799247494,
+        "f1": 0.812323041661049,
+        "bce_loss": 0.5631878967936687
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7235827901560308,
+        "accuracy": 0.7260518553019717,
+        "f1": 0.8215243008142418,
+        "bce_loss": 0.549609535519481
+      },
+      "test_metrics": {
+        "auc": 0.7234256988464649,
+        "accuracy": 0.7208151309310371,
+        "f1": 0.8157149048238156,
+        "bce_loss": 0.5564510377050865
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7215452954733405,
+        "accuracy": 0.7242664182580345,
+        "f1": 0.8179208529833915,
+        "bce_loss": 0.5540437693385071
+      },
+      "test_metrics": {
+        "auc": 0.7197276243607102,
+        "accuracy": 0.7181636827352844,
+        "f1": 0.8126311548340523,
+        "bce_loss": 0.5615065127489892
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7247681780170186,
+        "accuracy": 0.7258707240076593,
+        "f1": 0.8216498316498316,
+        "bce_loss": 0.5491171924677427
+      },
+      "test_metrics": {
+        "auc": 0.7226286119184975,
+        "accuracy": 0.7185424610489634,
+        "f1": 0.8151943228544899,
+        "bce_loss": 0.55686421764695
+      }
+    },
+    {
+      "run_name": "ednet1k_dkt_baseline_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_dkt_baseline_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_dkt_baseline_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7242185107163895,
+        "accuracy": 0.7244734254515345,
+        "f1": 0.8173083522064375,
+        "bce_loss": 0.5506615677192703
+      },
+      "test_metrics": {
+        "auc": 0.7227180112955329,
+        "accuracy": 0.7190222469129568,
+        "f1": 0.8115888040367781,
+        "bce_loss": 0.5575499244588186
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6375130404697078,
+        "accuracy": 0.7000983284169124,
+        "f1": 0.818064799698606,
+        "bce_loss": 0.5966476418174587
+      },
+      "test_metrics": {
+        "auc": 0.6518303387700601,
+        "accuracy": 0.6903866063988283,
+        "f1": 0.8120084022017449,
+        "bce_loss": 0.600685735860888
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6349247687652964,
+        "accuracy": 0.687626145008539,
+        "f1": 0.8149034038638454,
+        "bce_loss": 0.6024442992476019
+      },
+      "test_metrics": {
+        "auc": 0.6444724758246162,
+        "accuracy": 0.6787959900002525,
+        "f1": 0.8086700159441653,
+        "bce_loss": 0.6082206044988211
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6355423410217305,
+        "accuracy": 0.69981369352585,
+        "f1": 0.8179121344822715,
+        "bce_loss": 0.5972289954568001
+      },
+      "test_metrics": {
+        "auc": 0.6489286142113891,
+        "accuracy": 0.6903108507360926,
+        "f1": 0.8119422209954917,
+        "bce_loss": 0.6016875332472147
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6379922747701343,
+        "accuracy": 0.7001500802152875,
+        "f1": 0.8180790605670508,
+        "bce_loss": 0.5967003034877072
+      },
+      "test_metrics": {
+        "auc": 0.6522782422833083,
+        "accuracy": 0.6903866063988283,
+        "f1": 0.8120026372682806,
+        "bce_loss": 0.6008587871240699
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6376741027705471,
+        "accuracy": 0.6998395694250376,
+        "f1": 0.8179364033022569,
+        "bce_loss": 0.5962636422843784
+      },
+      "test_metrics": {
+        "auc": 0.6526605322456605,
+        "accuracy": 0.6886442261559051,
+        "f1": 0.8112023029337906,
+        "bce_loss": 0.5999435884054791
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6383595612796217,
+        "accuracy": 0.700175956114475,
+        "f1": 0.8180919038573246,
+        "bce_loss": 0.5962670849993734
+      },
+      "test_metrics": {
+        "auc": 0.6529452719521562,
+        "accuracy": 0.6904371101739855,
+        "f1": 0.8120333031785216,
+        "bce_loss": 0.6001228220230173
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6374906652506127,
+        "accuracy": 0.6997619417274751,
+        "f1": 0.8179036080290023,
+        "bce_loss": 0.5968373399624027
+      },
+      "test_metrics": {
+        "auc": 0.651523538755367,
+        "accuracy": 0.6886442261559051,
+        "f1": 0.8112023029337906,
+        "bce_loss": 0.6011632573101289
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.636762364026124,
+        "accuracy": 0.7001500802152875,
+        "f1": 0.8180733484049234,
+        "bce_loss": 0.5968355214458547
+      },
+      "test_metrics": {
+        "auc": 0.6509344703268236,
+        "accuracy": 0.6903866063988283,
+        "f1": 0.8119911063405658,
+        "bce_loss": 0.6010005219357554
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6385391615336455,
+        "accuracy": 0.700175956114475,
+        "f1": 0.818080479801548,
+        "bce_loss": 0.5965083544199213
+      },
+      "test_metrics": {
+        "auc": 0.6530945848216657,
+        "accuracy": 0.6903866063988283,
+        "f1": 0.8119911063405658,
+        "bce_loss": 0.6004939762369971
+      }
+    },
+    {
+      "run_name": "ednet1k_graph_only_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6352745491128391,
+        "accuracy": 0.687626145008539,
+        "f1": 0.8149034038638454,
+        "bce_loss": 0.602977940986177
+      },
+      "test_metrics": {
+        "auc": 0.6445033976910581,
+        "accuracy": 0.6787959900002525,
+        "f1": 0.8086700159441653,
+        "bce_loss": 0.608600264400852
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7000472828466595,
+        "accuracy": 0.7180820783522227,
+        "f1": 0.8160032425312009,
+        "bce_loss": 0.5648334816735567
+      },
+      "test_metrics": {
+        "auc": 0.6954469547708407,
+        "accuracy": 0.712936542006515,
+        "f1": 0.8109178004723728,
+        "bce_loss": 0.5730292425122112
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7025442612880954,
+        "accuracy": 0.7181079542514103,
+        "f1": 0.8217079637327745,
+        "bce_loss": 0.5636332725039546
+      },
+      "test_metrics": {
+        "auc": 0.697103645019196,
+        "accuracy": 0.7133658240953511,
+        "f1": 0.8171169864823496,
+        "bce_loss": 0.5734475683137006
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7003370634425803,
+        "accuracy": 0.7191171143197226,
+        "f1": 0.8238653880478346,
+        "bce_loss": 0.5673361511760053
+      },
+      "test_metrics": {
+        "auc": 0.6932772066215903,
+        "accuracy": 0.7091740107573041,
+        "f1": 0.8166579110750274,
+        "bce_loss": 0.5787243225820322
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6999593031609894,
+        "accuracy": 0.7178750711587227,
+        "f1": 0.8231554020080125,
+        "bce_loss": 0.5663345434486827
+      },
+      "test_metrics": {
+        "auc": 0.6953487611015146,
+        "accuracy": 0.7118002070654782,
+        "f1": 0.8180470306895178,
+        "bce_loss": 0.5755534966187412
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7029952943336942,
+        "accuracy": 0.72059204057341,
+        "f1": 0.8208930467091294,
+        "bce_loss": 0.5620472368962173
+      },
+      "test_metrics": {
+        "auc": 0.6991202812348578,
+        "accuracy": 0.7153607232140603,
+        "f1": 0.8163870337188467,
+        "bce_loss": 0.5703086901120308
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6997827733431328,
+        "accuracy": 0.7189359830254102,
+        "f1": 0.8204093779967594,
+        "bce_loss": 0.5636394392934956
+      },
+      "test_metrics": {
+        "auc": 0.694926404027628,
+        "accuracy": 0.7127092750183076,
+        "f1": 0.815101331036388,
+        "bce_loss": 0.5724988007361913
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7033761468718109,
+        "accuracy": 0.7192464938156601,
+        "f1": 0.8154573595945164,
+        "bce_loss": 0.5631701580364441
+      },
+      "test_metrics": {
+        "auc": 0.6996141712635634,
+        "accuracy": 0.7142243882730234,
+        "f1": 0.8107113586565642,
+        "bce_loss": 0.5714713740370327
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7045947484357047,
+        "accuracy": 0.720022770791285,
+        "f1": 0.8174825410748625,
+        "bce_loss": 0.5616042124134131
+      },
+      "test_metrics": {
+        "auc": 0.7013316640848238,
+        "accuracy": 0.7134920835332441,
+        "f1": 0.8117096485114009,
+        "bce_loss": 0.5694772610342104
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7007283585808597,
+        "accuracy": 0.7161413859131605,
+        "f1": 0.8100103914097678,
+        "bce_loss": 0.5688441505900363
+      },
+      "test_metrics": {
+        "auc": 0.6932320185237568,
+        "accuracy": 0.7101083305977122,
+        "f1": 0.8035928143712575,
+        "bce_loss": 0.5801608592553773
+      }
+    },
+    {
+      "run_name": "ednet1k_sakt_baseline_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_sakt_baseline_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7015166813773289,
+        "accuracy": 0.7179526988562852,
+        "f1": 0.8135477249401301,
+        "bce_loss": 0.5651148454029722
+      },
+      "test_metrics": {
+        "auc": 0.6954394765515565,
+        "accuracy": 0.7106891240120199,
+        "f1": 0.8070529985348356,
+        "bce_loss": 0.5739613131759501
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.726892374335807,
+        "accuracy": 0.7239041556694095,
+        "f1": 0.8157803867403314,
+        "bce_loss": 0.5500913746534961
+      },
+      "test_metrics": {
+        "auc": 0.7262595813039487,
+        "accuracy": 0.7157900053028964,
+        "f1": 0.8074389638830434,
+        "bce_loss": 0.557213664624381
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7267474310455473,
+        "accuracy": 0.7204885369766599,
+        "f1": 0.8103181850108871,
+        "bce_loss": 0.5511591932775732
+      },
+      "test_metrics": {
+        "auc": 0.7256547375469663,
+        "accuracy": 0.7130122976692508,
+        "f1": 0.8027765726681129,
+        "bce_loss": 0.5574576071823242
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7253846436695549,
+        "accuracy": 0.72038503337991,
+        "f1": 0.8096731013104128,
+        "bce_loss": 0.5541553242747954
+      },
+      "test_metrics": {
+        "auc": 0.7228647183404893,
+        "accuracy": 0.7167243251433044,
+        "f1": 0.8050128624070082,
+        "bce_loss": 0.5621955466447389
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7243816054277681,
+        "accuracy": 0.7164777726025979,
+        "f1": 0.8043427795932215,
+        "bce_loss": 0.5552652229126783
+      },
+      "test_metrics": {
+        "auc": 0.7261065922038409,
+        "accuracy": 0.7113961768642206,
+        "f1": 0.7974694759972355,
+        "bce_loss": 0.5601130588992271
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7265772291316699,
+        "accuracy": 0.7214976970449724,
+        "f1": 0.8140816361783351,
+        "bce_loss": 0.5518021394838956
+      },
+      "test_metrics": {
+        "auc": 0.727512017793775,
+        "accuracy": 0.7157395015277392,
+        "f1": 0.8081596482557645,
+        "bce_loss": 0.5570652002560805
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7242364158791762,
+        "accuracy": 0.7225327330124722,
+        "f1": 0.815746516143444,
+        "bce_loss": 0.5516098807641527
+      },
+      "test_metrics": {
+        "auc": 0.7270524217030149,
+        "accuracy": 0.7184919572738062,
+        "f1": 0.8107236238921525,
+        "bce_loss": 0.555528292450073
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7227306396936113,
+        "accuracy": 0.7213683175490349,
+        "f1": 0.8130036121144762,
+        "bce_loss": 0.5674176171985488
+      },
+      "test_metrics": {
+        "auc": 0.7197737951263886,
+        "accuracy": 0.7148304335749097,
+        "f1": 0.8069407641678775,
+        "bce_loss": 0.5762813433033733
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7243341804370586,
+        "accuracy": 0.7215235729441598,
+        "f1": 0.8141085431996409,
+        "bce_loss": 0.563616192453434
+      },
+      "test_metrics": {
+        "auc": 0.7239931310347797,
+        "accuracy": 0.7159667685159465,
+        "f1": 0.8079431752211179,
+        "bce_loss": 0.5695408321652934
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7264070521553452,
+        "accuracy": 0.723412513584847,
+        "f1": 0.8202230183157577,
+        "bce_loss": 0.5586963900280639
+      },
+      "test_metrics": {
+        "auc": 0.7250896216471432,
+        "accuracy": 0.7184414534986491,
+        "f1": 0.8148394167856787,
+        "bce_loss": 0.5659981444487148
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_cooccurrence_graph_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7268025523884365,
+        "accuracy": 0.7157532474253481,
+        "f1": 0.8035129769080795,
+        "bce_loss": 0.5548714630550641
+      },
+      "test_metrics": {
+        "auc": 0.7254206958972915,
+        "accuracy": 0.7113961768642206,
+        "f1": 0.7978205876629695,
+        "bce_loss": 0.5613223909107977
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7272212788346063,
+        "accuracy": 0.7245251772499094,
+        "f1": 0.8170224468048537,
+        "bce_loss": 0.549886186493812
+      },
+      "test_metrics": {
+        "auc": 0.7270701740655706,
+        "accuracy": 0.7177091487588697,
+        "f1": 0.8100715268692977,
+        "bce_loss": 0.5569407506468945
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7256755869788669,
+        "accuracy": 0.7184184650416602,
+        "f1": 0.8079082082965579,
+        "bce_loss": 0.5537229816497273
+      },
+      "test_metrics": {
+        "auc": 0.7222319913834068,
+        "accuracy": 0.7120527259412641,
+        "f1": 0.8019384086290449,
+        "bce_loss": 0.56233439249626
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7252290613959055,
+        "accuracy": 0.7186254722351602,
+        "f1": 0.8074034714842366,
+        "bce_loss": 0.5578132623517724
+      },
+      "test_metrics": {
+        "auc": 0.7217563187297193,
+        "accuracy": 0.7132900684326153,
+        "f1": 0.8010792249202845,
+        "bce_loss": 0.5667296699007682
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7258433013718696,
+        "accuracy": 0.7209025513636599,
+        "f1": 0.8094952135363312,
+        "bce_loss": 0.5543023443164966
+      },
+      "test_metrics": {
+        "auc": 0.7233281807612821,
+        "accuracy": 0.7121284816039999,
+        "f1": 0.8002313111134476,
+        "bce_loss": 0.5628003639111602
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7238080354829454,
+        "accuracy": 0.7226621125084096,
+        "f1": 0.8125502815768303,
+        "bce_loss": 0.5538738773870757
+      },
+      "test_metrics": {
+        "auc": 0.722314582276088,
+        "accuracy": 0.7146284184742809,
+        "f1": 0.8041251408267613,
+        "bce_loss": 0.56112775280781
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7255215477162863,
+        "accuracy": 0.7225844848108471,
+        "f1": 0.8125863123852811,
+        "bce_loss": 0.5507949662064398
+      },
+      "test_metrics": {
+        "auc": 0.7253032583160021,
+        "accuracy": 0.7163455468296255,
+        "f1": 0.8060835189117337,
+        "bce_loss": 0.5569805654122524
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7229974995614732,
+        "accuracy": 0.7226103607100347,
+        "f1": 0.8190045248868778,
+        "bce_loss": 0.5610453286324973
+      },
+      "test_metrics": {
+        "auc": 0.7221555977322833,
+        "accuracy": 0.7168505845811974,
+        "f1": 0.8134989937295212,
+        "bce_loss": 0.5679764630788704
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7245827174381273,
+        "accuracy": 0.7246286808466594,
+        "f1": 0.8214189824137467,
+        "bce_loss": 0.5570320022476869
+      },
+      "test_metrics": {
+        "auc": 0.7241786446857907,
+        "accuracy": 0.7162697911668897,
+        "f1": 0.8141704154538237,
+        "bce_loss": 0.5634172046233727
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7243787656639626,
+        "accuracy": 0.7218340837344098,
+        "f1": 0.8178892088768422,
+        "bce_loss": 0.5620463684743834
+      },
+      "test_metrics": {
+        "auc": 0.7221019575211408,
+        "accuracy": 0.7182646902855988,
+        "f1": 0.8134686439402804,
+        "bce_loss": 0.5722473329092591
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_full_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7246128513532837,
+        "accuracy": 0.7182632096465352,
+        "f1": 0.8066486716863192,
+        "bce_loss": 0.5561549891338093
+      },
+      "test_metrics": {
+        "auc": 0.7270375296057935,
+        "accuracy": 0.7140981288351305,
+        "f1": 0.8008162978079588,
+        "bce_loss": 0.560295373810358
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7252862993135739,
+        "accuracy": 0.7212906898514724,
+        "f1": 0.8110384028350379,
+        "bce_loss": 0.5535472010753941
+      },
+      "test_metrics": {
+        "auc": 0.724003103943563,
+        "accuracy": 0.7137698542966087,
+        "f1": 0.8035085894568967,
+        "bce_loss": 0.5606678322536188
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7242834106971029,
+        "accuracy": 0.7182890855457227,
+        "f1": 0.8076127869373907,
+        "bce_loss": 0.5536506017664672
+      },
+      "test_metrics": {
+        "auc": 0.7243930622246336,
+        "accuracy": 0.7136940986338729,
+        "f1": 0.8023567967088518,
+        "bce_loss": 0.5594844111697216
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7242683889388388,
+        "accuracy": 0.7144077006675982,
+        "f1": 0.800296741274178,
+        "bce_loss": 0.5613051350843612
+      },
+      "test_metrics": {
+        "auc": 0.7241185674153425,
+        "accuracy": 0.708492209792682,
+        "f1": 0.7933182941239662,
+        "bce_loss": 0.5662202370983885
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7255598954378394,
+        "accuracy": 0.7179526988562852,
+        "f1": 0.8054057914092905,
+        "bce_loss": 0.5542314998572158
+      },
+      "test_metrics": {
+        "auc": 0.7240797227894009,
+        "accuracy": 0.7105881164617055,
+        "f1": 0.7973047061528394,
+        "bce_loss": 0.5613248674704157
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7271090286758414,
+        "accuracy": 0.7191947420172851,
+        "f1": 0.8085121400338792,
+        "bce_loss": 0.5525506433850199
+      },
+      "test_metrics": {
+        "auc": 0.7272205924364056,
+        "accuracy": 0.714375899598495,
+        "f1": 0.8035295548105817,
+        "bce_loss": 0.5579389923012315
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7239858527019564,
+        "accuracy": 0.7224551053149096,
+        "f1": 0.8148199302510273,
+        "bce_loss": 0.5512825128869364
+      },
+      "test_metrics": {
+        "auc": 0.7227608099897077,
+        "accuracy": 0.7155374864271105,
+        "f1": 0.807491839978126,
+        "bce_loss": 0.5585304078877993
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7246892787176991,
+        "accuracy": 0.7215494488433473,
+        "f1": 0.8158151476251604,
+        "bce_loss": 0.5626838269018284
+      },
+      "test_metrics": {
+        "auc": 0.7263614979975803,
+        "accuracy": 0.7199565667533648,
+        "f1": 0.812738509337746,
+        "bce_loss": 0.5685359738269538
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7258902182599444,
+        "accuracy": 0.7218082078352223,
+        "f1": 0.8211951369601013,
+        "bce_loss": 0.5567684883143369
+      },
+      "test_metrics": {
+        "auc": 0.7273978674703954,
+        "accuracy": 0.7173556223327694,
+        "f1": 0.8164209214216593,
+        "bce_loss": 0.5615093483588632
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7267514584602967,
+        "accuracy": 0.7246804326450345,
+        "f1": 0.8187393526405452,
+        "bce_loss": 0.5583104153956654
+      },
+      "test_metrics": {
+        "auc": 0.7251011445974677,
+        "accuracy": 0.717128355344562,
+        "f1": 0.811534708435681,
+        "bce_loss": 0.5656140907182474
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_prereq_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_prereq_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_prereq_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7260467793325345,
+        "accuracy": 0.7195052528075351,
+        "f1": 0.8068218269950458,
+        "bce_loss": 0.5534717648866242
+      },
+      "test_metrics": {
+        "auc": 0.7237051742609344,
+        "accuracy": 0.712810282568622,
+        "f1": 0.799478110619391,
+        "bce_loss": 0.5609793442448184
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed01",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed01_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed01\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7215398310321209,
+        "accuracy": 0.72017802618641,
+        "f1": 0.8123286244837041,
+        "bce_loss": 0.5540196331715812
+      },
+      "test_metrics": {
+        "auc": 0.7204658214085421,
+        "accuracy": 0.7139718693972374,
+        "f1": 0.8063396536100805,
+        "bce_loss": 0.5609920755311552
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed02",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed02_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed02\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7247755751185668,
+        "accuracy": 0.7197381359002225,
+        "f1": 0.8100990619794863,
+        "bce_loss": 0.568399515412057
+      },
+      "test_metrics": {
+        "auc": 0.7225221386876565,
+        "accuracy": 0.7129870457816722,
+        "f1": 0.8027626418630479,
+        "bce_loss": 0.5781178665252921
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed03",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed03_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed03\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.722739134047475,
+        "accuracy": 0.7217047042384723,
+        "f1": 0.8169330541796456,
+        "bce_loss": 0.5605403817010682
+      },
+      "test_metrics": {
+        "auc": 0.7213514449545738,
+        "accuracy": 0.7166738213681473,
+        "f1": 0.8114222326800902,
+        "bce_loss": 0.570226600755318
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed04",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed04_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed04\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7220715027713351,
+        "accuracy": 0.7211871862547223,
+        "f1": 0.8119119521008257,
+        "bce_loss": 0.5536657659842774
+      },
+      "test_metrics": {
+        "auc": 0.7206815725680317,
+        "accuracy": 0.7155374864271105,
+        "f1": 0.8057926040858547,
+        "bce_loss": 0.5614217769199142
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed05",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed05_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed05\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7214510689307371,
+        "accuracy": 0.7169952905863479,
+        "f1": 0.8064282048105343,
+        "bce_loss": 0.5650164861899402
+      },
+      "test_metrics": {
+        "auc": 0.7181348455421624,
+        "accuracy": 0.7121032297164213,
+        "f1": 0.8002032840895151,
+        "bce_loss": 0.5759200445287544
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed06",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed06_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed06\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.722784473635346,
+        "accuracy": 0.715856751022098,
+        "f1": 0.8033241989504416,
+        "bce_loss": 0.5558063261155252
+      },
+      "test_metrics": {
+        "auc": 0.7203852075499775,
+        "accuracy": 0.7090477513194111,
+        "f1": 0.7959769097283707,
+        "bce_loss": 0.5638519207850196
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed07",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed07_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed07\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7227889094025197,
+        "accuracy": 0.7216529524400973,
+        "f1": 0.8125664302765242,
+        "bce_loss": 0.562742217740096
+      },
+      "test_metrics": {
+        "auc": 0.7227030724046046,
+        "accuracy": 0.7158405090780536,
+        "f1": 0.8059392622484348,
+        "bce_loss": 0.5724022880193891
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed08",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed08_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed08\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7226836698132372,
+        "accuracy": 0.7183408373440977,
+        "f1": 0.8091924202850282,
+        "bce_loss": 0.557557586850071
+      },
+      "test_metrics": {
+        "auc": 0.721624690956812,
+        "accuracy": 0.7140728769475518,
+        "f1": 0.8039748628014474,
+        "bce_loss": 0.5653502223117254
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed09",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed09_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed09\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.724389828585747,
+        "accuracy": 0.7192982456140351,
+        "f1": 0.8103430189866778,
+        "bce_loss": 0.5543737716611561
+      },
+      "test_metrics": {
+        "auc": 0.7240243833817765,
+        "accuracy": 0.7167243251433044,
+        "f1": 0.8058161675610178,
+        "bce_loss": 0.5619686623622859
+      }
+    },
+    {
+      "run_name": "ednet1k_thgkt_no_temporal_seed10",
+      "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_no_temporal_seed10_cuda.json",
+      "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10",
+      "artifacts": {
+        "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\data\\canonical_bundle.json",
+        "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\data\\splits.json",
+        "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\data\\graph.json",
+        "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\data\\sequences.json",
+        "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\checkpoints\\best_checkpoint.pt",
+        "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\metrics\\metrics.json",
+        "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\metrics\\test_metrics.json",
+        "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\metrics\\test_predictions.json",
+        "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\plots\\training_curves.svg",
+        "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\plots\\roc_curve.svg",
+        "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_no_temporal_seed10\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7234350787974294,
+        "accuracy": 0.7158826269212856,
+        "f1": 0.8040195623460537,
+        "bce_loss": 0.5610949157684114
+      },
+      "test_metrics": {
+        "auc": 0.7196044428518986,
+        "accuracy": 0.7109416428878058,
+        "f1": 0.7978169101153363,
+        "bce_loss": 0.5707261024997557
+      }
+    }
+  ],
+  "comparison": {
+    "comparison_json": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_metrics.json",
+    "comparison_csv": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_metrics.csv",
+    "comparison_report": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_report.md",
+    "comparison_auc_plot": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_auc.svg",
+    "comparison_accuracy_plot": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_accuracy.svg",
+    "comparison_f1_plot": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_f1.svg",
+    "comparison_bce_loss_plot": "artifacts\\ednet_1k_seed_suite\\comparison\\comparison_bce_loss.svg"
+  }
+}

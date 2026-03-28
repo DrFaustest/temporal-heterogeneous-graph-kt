@@ -1,0 +1,21 @@
+{
+  "examples": [
+    {
+      "base_probability": 0.5646172165870667,
+      "no_prerequisite_probability": 0.5646172165870667,
+      "prerequisite_concepts": [],
+      "prerequisite_influence": 0.0,
+      "student_id": "stu-1",
+      "target_interaction_id": "stu-1-3"
+    },
+    {
+      "base_probability": 0.7063096165657043,
+      "no_prerequisite_probability": 0.7063096165657043,
+      "prerequisite_concepts": [],
+      "prerequisite_influence": 0.0,
+      "student_id": "stu-2",
+      "target_interaction_id": "stu-2-7"
+    }
+  ],
+  "method": "drop_prerequisite_edges"
+}

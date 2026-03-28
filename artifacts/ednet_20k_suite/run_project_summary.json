@@ -1,0 +1,218 @@
+{
+  "project_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project",
+  "output_root": "artifacts\\ednet_20k_suite",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070"
+  },
+  "source_configs": [
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_20k\\thgkt_full.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_20k\\dkt_baseline.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_20k\\graph_only.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_20k\\thgkt_no_prereq.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_20k\\thgkt_no_temporal.json",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\ednet_20k\\thgkt_cooccurrence_graph.json"
+  ],
+  "resolved_configs": [
+    "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_full_cuda.json",
+    "artifacts\\ednet_20k_suite\\resolved_configs\\dkt_baseline_cuda.json",
+    "artifacts\\ednet_20k_suite\\resolved_configs\\graph_only_cuda.json",
+    "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_no_prereq_cuda.json",
+    "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_no_temporal_cuda.json",
+    "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_cooccurrence_graph_cuda.json"
+  ],
+  "heartbeat_seconds": 15,
+  "runs": [
+    {
+      "run_name": "ednet20k_thgkt_full",
+      "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_full_cuda.json",
+      "run_dir": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\splits.json",
+        "graph": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\graph.json",
+        "sequences": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_full\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7640913751272506,
+        "accuracy": 0.7359345999438556,
+        "f1": 0.8217442618848965,
+        "bce_loss": 0.5270269929048265
+      },
+      "test_metrics": {
+        "auc": 0.7613360010500438,
+        "accuracy": 0.7299458666322879,
+        "f1": 0.8159561604130341,
+        "bce_loss": 0.5347822317966449
+      }
+    },
+    {
+      "run_name": "ednet20k_dkt_baseline",
+      "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\dkt_baseline_cuda.json",
+      "run_dir": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\splits.json",
+        "graph": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\graph.json",
+        "sequences": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6375601595066175,
+        "accuracy": 0.6970273445058883,
+        "f1": 0.8105047116420515,
+        "bce_loss": 0.5990762956286119
+      },
+      "test_metrics": {
+        "auc": 0.6422866853323205,
+        "accuracy": 0.6913919572143046,
+        "f1": 0.8053947093831636,
+        "bce_loss": 0.603939998661398
+      }
+    },
+    {
+      "run_name": "ednet20k_graph_only",
+      "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\graph_only_cuda.json",
+      "run_dir": "artifacts\\ednet_20k_suite\\ednet20k_graph_only",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\data\\splits.json",
+        "graph": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\data\\graph.json",
+        "sequences": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_20k_suite\\ednet20k_graph_only\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.5791248325536845,
+        "accuracy": 0.6807236632316829,
+        "f1": 0.8088863148793162,
+        "bce_loss": 0.617111414833077
+      },
+      "test_metrics": {
+        "auc": 0.5858222223718,
+        "accuracy": 0.670912186453766,
+        "f1": 0.8016784834378313,
+        "bce_loss": 0.6240589135834859
+      }
+    },
+    {
+      "run_name": "ednet20k_thgkt_no_prereq",
+      "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_no_prereq_cuda.json",
+      "run_dir": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\data\\splits.json",
+        "graph": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\data\\graph.json",
+        "sequences": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_prereq\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7652233740528099,
+        "accuracy": 0.7365682685991971,
+        "f1": 0.8228789861207317,
+        "bce_loss": 0.5259024649106822
+      },
+      "test_metrics": {
+        "auc": 0.763527105205419,
+        "accuracy": 0.7310968486219449,
+        "f1": 0.817444971284462,
+        "bce_loss": 0.5325089082709091
+      }
+    },
+    {
+      "run_name": "ednet20k_thgkt_no_temporal",
+      "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_no_temporal_cuda.json",
+      "run_dir": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\data\\splits.json",
+        "graph": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\data\\graph.json",
+        "sequences": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_no_temporal\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7596687479490739,
+        "accuracy": 0.7323846927456522,
+        "f1": 0.817411128528686,
+        "bce_loss": 0.5305959011281067
+      },
+      "test_metrics": {
+        "auc": 0.7539126879139036,
+        "accuracy": 0.7248741030381406,
+        "f1": 0.8101392370349785,
+        "bce_loss": 0.5407848201937343
+      }
+    },
+    {
+      "run_name": "ednet20k_thgkt_cooccurrence_graph",
+      "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\thgkt_cooccurrence_graph_cuda.json",
+      "run_dir": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\data\\splits.json",
+        "graph": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\data\\graph.json",
+        "sequences": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet_20k_suite\\ednet20k_thgkt_cooccurrence_graph\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.7643062358669912,
+        "accuracy": 0.7362398510810524,
+        "f1": 0.8227418133263488,
+        "bce_loss": 0.5270005456945711
+      },
+      "test_metrics": {
+        "auc": 0.7618597302289822,
+        "accuracy": 0.7300761163262675,
+        "f1": 0.8169412969350955,
+        "bce_loss": 0.5344698948953902
+      }
+    }
+  ],
+  "comparison": {
+    "comparison_json": "artifacts\\ednet_20k_suite\\comparison\\comparison_metrics.json",
+    "comparison_csv": "artifacts\\ednet_20k_suite\\comparison\\comparison_metrics.csv",
+    "comparison_report": "artifacts\\ednet_20k_suite\\comparison\\comparison_report.md",
+    "comparison_auc_plot": "artifacts\\ednet_20k_suite\\comparison\\comparison_auc.svg",
+    "comparison_accuracy_plot": "artifacts\\ednet_20k_suite\\comparison\\comparison_accuracy.svg",
+    "comparison_f1_plot": "artifacts\\ednet_20k_suite\\comparison\\comparison_f1.svg",
+    "comparison_bce_loss_plot": "artifacts\\ednet_20k_suite\\comparison\\comparison_bce_loss.svg"
+  }
+}

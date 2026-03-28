@@ -1,0 +1,35 @@
+{
+  "examples": [
+    {
+      "concept_scores": [
+        {
+          "ablated_probability": 0.5351568460464478,
+          "base_probability": 0.5941402316093445,
+          "concept_index": 1,
+          "concept_label": "c-div",
+          "importance": 0.05898338556289673
+        }
+      ],
+      "student_id": "stu-1",
+      "target_correct": 1,
+      "target_interaction_id": "stu-1-3",
+      "target_probability": 0.5941402316093445
+    },
+    {
+      "concept_scores": [
+        {
+          "ablated_probability": 0.7891408801078796,
+          "base_probability": 0.8685310482978821,
+          "concept_index": 0,
+          "concept_label": "c-add",
+          "importance": 0.07939016819000244
+        }
+      ],
+      "student_id": "stu-2",
+      "target_correct": 1,
+      "target_interaction_id": "stu-2-7",
+      "target_probability": 0.8685310482978821
+    }
+  ],
+  "method": "leave_one_target_concept_out"
+}

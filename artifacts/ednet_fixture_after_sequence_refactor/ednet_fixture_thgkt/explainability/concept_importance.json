@@ -1,0 +1,35 @@
+{
+  "examples": [
+    {
+      "concept_scores": [
+        {
+          "ablated_probability": 0.5766650438308716,
+          "base_probability": 0.6108387112617493,
+          "concept_index": 1,
+          "concept_label": "skill_div",
+          "importance": 0.034173667430877686
+        }
+      ],
+      "student_id": "u100",
+      "target_correct": 1,
+      "target_interaction_id": "u100-3",
+      "target_probability": 0.6108387112617493
+    },
+    {
+      "concept_scores": [
+        {
+          "ablated_probability": 0.5487815141677856,
+          "base_probability": 0.5632985830307007,
+          "concept_index": 1,
+          "concept_label": "skill_div",
+          "importance": 0.014517068862915039
+        }
+      ],
+      "student_id": "u101",
+      "target_correct": 1,
+      "target_interaction_id": "u101-3",
+      "target_probability": 0.5632985830307007
+    }
+  ],
+  "method": "leave_one_target_concept_out"
+}

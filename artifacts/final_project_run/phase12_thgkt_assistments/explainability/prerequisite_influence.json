@@ -1,0 +1,27 @@
+{
+  "examples": [
+    {
+      "base_probability": 0.773204505443573,
+      "no_prerequisite_probability": 0.7600823640823364,
+      "prerequisite_concepts": [
+        "c-add",
+        "c-mul"
+      ],
+      "prerequisite_influence": 0.013122141361236572,
+      "student_id": "stu-1",
+      "target_interaction_id": "stu-1-3"
+    },
+    {
+      "base_probability": 0.7210832834243774,
+      "no_prerequisite_probability": 0.7296416759490967,
+      "prerequisite_concepts": [
+        "c-div",
+        "c-sub"
+      ],
+      "prerequisite_influence": -0.008558392524719238,
+      "student_id": "stu-2",
+      "target_interaction_id": "stu-2-7"
+    }
+  ],
+  "method": "drop_prerequisite_edges"
+}

@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\canonical_bundle.json",
+    "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\checkpoints\\best_checkpoint.pt",
+    "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\config\\experiment_config.json",
+    "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\graph.json",
+    "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\metrics\\metrics.json",
+    "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\plots\\roc_curve.svg",
+    "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\sequences.json",
+    "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\data\\splits.json",
+    "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\metrics\\test_metrics.json",
+    "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\metrics\\test_predictions.json",
+    "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.7245251772499094,
+    "auc": 0.7272212788346063,
+    "bce_loss": 0.549886186493812,
+    "f1": 0.8170224468048537
+  },
+  "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_full_seed01_cuda.json",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed01",
+  "run_name": "ednet1k_thgkt_full_seed01",
+  "test_metrics": {
+    "accuracy": 0.7177091487588697,
+    "auc": 0.7270701740655706,
+    "bce_loss": 0.5569407506468945,
+    "f1": 0.8100715268692977
+  }
+}

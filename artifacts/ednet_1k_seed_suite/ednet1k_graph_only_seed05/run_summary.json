@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\canonical_bundle.json",
+    "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\checkpoints\\best_checkpoint.pt",
+    "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\config\\experiment_config.json",
+    "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\graph.json",
+    "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\metrics\\metrics.json",
+    "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\plots\\roc_curve.svg",
+    "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\sequences.json",
+    "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\data\\splits.json",
+    "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\metrics\\test_metrics.json",
+    "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\metrics\\test_predictions.json",
+    "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.6998395694250376,
+    "auc": 0.6376741027705471,
+    "bce_loss": 0.5962636422843784,
+    "f1": 0.8179364033022569
+  },
+  "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_graph_only_seed05_cuda.json",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_graph_only_seed05",
+  "run_name": "ednet1k_graph_only_seed05",
+  "test_metrics": {
+    "accuracy": 0.6886442261559051,
+    "auc": 0.6526605322456605,
+    "bce_loss": 0.5999435884054791,
+    "f1": 0.8112023029337906
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": {
+    "name": "assistments_fixture",
+    "relation_mode": "none"
+  },
+  "graph": {
+    "include_reverse_edges": false,
+    "include_student_exposure_edges": true,
+    "interaction_edge_split": "train"
+  },
+  "model": {
+    "type": "logistic_baseline"
+  },
+  "preprocessing": {
+    "drop_interactions_without_concepts": true,
+    "min_interactions_per_student": 4
+  },
+  "run": {
+    "name": "phase12_baseline_assistments",
+    "notes": "Baseline end-to-end smoke run on the ASSISTments fixture"
+  },
+  "split": {
+    "random_seed": 42,
+    "strategy": "student_chronological",
+    "test_ratio": 0.25,
+    "train_ratio": 0.5,
+    "val_ratio": 0.25
+  },
+  "training": {
+    "batch_size": 2,
+    "device": "cuda",
+    "epochs": 2,
+    "learning_rate": 0.1,
+    "random_seed": 42
+  }
+}

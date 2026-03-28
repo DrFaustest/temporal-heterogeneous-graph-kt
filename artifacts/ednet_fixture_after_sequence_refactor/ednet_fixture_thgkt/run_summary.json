@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "canonical_bundle": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\data\\canonical_bundle.json",
+    "checkpoint": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\checkpoints\\best_checkpoint.pt",
+    "concept_plot": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\explainability\\concept_importance.svg",
+    "concept_report": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\explainability\\concept_importance.json",
+    "experiment_config": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\config\\experiment_config.json",
+    "graph": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\data\\graph.json",
+    "metrics": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\metrics\\metrics.json",
+    "prerequisite_report": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\explainability\\prerequisite_influence.json",
+    "roc_plot": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\plots\\roc_curve.svg",
+    "sequences": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\data\\sequences.json",
+    "splits": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\data\\splits.json",
+    "test_metrics": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\metrics\\test_metrics.json",
+    "test_predictions": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\metrics\\test_predictions.json",
+    "training_plot": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.5,
+    "auc": 1.0,
+    "bce_loss": 0.8001037845652521,
+    "f1": 0.6666666666666666
+  },
+  "config_path": "artifacts\\ednet_fixture_after_sequence_refactor\\resolved_configs\\ednet_fixture_cuda.json",
+  "run_dir": "artifacts\\ednet_fixture_after_sequence_refactor\\ednet_fixture_thgkt",
+  "run_name": "ednet_fixture_thgkt",
+  "test_metrics": {
+    "accuracy": 1.0,
+    "auc": 0.5,
+    "bce_loss": 0.5358236185040326,
+    "f1": 1.0
+  }
+}

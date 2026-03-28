@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\canonical_bundle.json",
+    "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\checkpoints\\best_checkpoint.pt",
+    "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\config\\experiment_config.json",
+    "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\graph.json",
+    "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\metrics\\metrics.json",
+    "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\plots\\roc_curve.svg",
+    "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\sequences.json",
+    "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\data\\splits.json",
+    "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\metrics\\test_metrics.json",
+    "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\metrics\\test_predictions.json",
+    "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.6963636958281436,
+    "auc": 0.6451498722589044,
+    "bce_loss": 0.5960467189691818,
+    "f1": 0.8091763877672143
+  },
+  "config_path": "artifacts\\ednet_20k_suite\\resolved_configs\\dkt_baseline_cuda.json",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_20k_suite\\ednet20k_dkt_baseline",
+  "run_name": "ednet20k_dkt_baseline",
+  "test_metrics": {
+    "accuracy": 0.6911420904544252,
+    "auc": 0.6496719250136894,
+    "bce_loss": 0.5999292324224197,
+    "f1": 0.804176269586797
+  }
+}

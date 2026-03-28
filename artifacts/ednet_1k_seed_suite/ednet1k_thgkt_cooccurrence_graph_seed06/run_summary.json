@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "canonical_bundle": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\canonical_bundle.json",
+    "checkpoint": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\checkpoints\\best_checkpoint.pt",
+    "experiment_config": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\config\\experiment_config.json",
+    "graph": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\graph.json",
+    "metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\metrics\\metrics.json",
+    "roc_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\plots\\roc_curve.svg",
+    "sequences": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\sequences.json",
+    "splits": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\data\\splits.json",
+    "test_metrics": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\metrics\\test_metrics.json",
+    "test_predictions": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\metrics\\test_predictions.json",
+    "training_plot": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.7225327330124722,
+    "auc": 0.7242364158791762,
+    "bce_loss": 0.5516098807641527,
+    "f1": 0.815746516143444
+  },
+  "config_path": "artifacts\\ednet_1k_seed_suite\\resolved_configs\\ednet1k_thgkt_cooccurrence_graph_seed06_cuda.json",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_cooccurrence_graph_seed06",
+  "run_name": "ednet1k_thgkt_cooccurrence_graph_seed06",
+  "test_metrics": {
+    "accuracy": 0.7184919572738062,
+    "auc": 0.7270524217030149,
+    "bce_loss": 0.555528292450073,
+    "f1": 0.8107236238921525
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dataset": {
+    "name": "assistments_fixture",
+    "relation_mode": "transition"
+  },
+  "graph": {
+    "include_reverse_edges": false,
+    "include_student_exposure_edges": true,
+    "interaction_edge_split": "train"
+  },
+  "model": {
+    "dropout": 0.1,
+    "hidden_dim": 16,
+    "temporal_hidden_dim": 12,
+    "type": "thgkt",
+    "use_graph_encoder": false,
+    "use_prerequisite_edges": false,
+    "use_temporal_encoder": true,
+    "use_time_features": true
+  },
+  "preprocessing": {
+    "drop_interactions_without_concepts": true,
+    "min_interactions_per_student": 4
+  },
+  "run": {
+    "name": "phase12_thgkt_ablation_assistments",
+    "notes": "Ablation smoke run with the graph encoder disabled"
+  },
+  "split": {
+    "random_seed": 44,
+    "strategy": "student_chronological",
+    "test_ratio": 0.25,
+    "train_ratio": 0.5,
+    "val_ratio": 0.25
+  },
+  "training": {
+    "batch_size": 2,
+    "device": "cuda",
+    "epochs": 2,
+    "learning_rate": 0.01,
+    "random_seed": 44
+  }
+}

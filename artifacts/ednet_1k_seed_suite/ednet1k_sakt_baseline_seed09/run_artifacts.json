@@ -1,0 +1,99 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.7161413859131605,
+    "auc": 0.7007283585808597,
+    "bce_loss": 0.5688441505900363,
+    "f1": 0.8100103914097678
+  },
+  "checkpoint_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\config\\training_config.json",
+  "created_at": "2026-03-27T23:25:04+00:00",
+  "extra": {
+    "best_epoch": 2,
+    "completed_epochs": 5,
+    "stopped_early": true
+  },
+  "metrics_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09\\metrics\\metrics.json",
+  "model_name": "SAKTBaseline",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed09",
+  "run_name": "ednet1k_sakt_baseline_seed09",
+  "train_history": [
+    {
+      "accuracy": 0.7119438587170078,
+      "auc": 0.6958216843762803,
+      "bce_loss": 0.5742708974938904,
+      "epoch": 1.0,
+      "f1": 0.8121539783021386,
+      "loss": 0.574250240858538
+    },
+    {
+      "accuracy": 0.7345022054713399,
+      "auc": 0.7687761721972947,
+      "bce_loss": 0.5267657404370449,
+      "epoch": 2.0,
+      "f1": 0.81777987115595,
+      "loss": 0.5267578133343805
+    },
+    {
+      "accuracy": 0.7446136135969937,
+      "auc": 0.7898915223927636,
+      "bce_loss": 0.5071865409338064,
+      "epoch": 3.0,
+      "f1": 0.8222313823537344,
+      "loss": 0.5072002192292568
+    },
+    {
+      "accuracy": 0.7547084184252326,
+      "auc": 0.8067981051894386,
+      "bce_loss": 0.49018936783385225,
+      "epoch": 4.0,
+      "f1": 0.8279270570056411,
+      "loss": 0.49020351180307037
+    },
+    {
+      "accuracy": 0.7640007305450862,
+      "auc": 0.8213620218472486,
+      "bce_loss": 0.474598898916792,
+      "epoch": 5.0,
+      "f1": 0.8329925978145928,
+      "loss": 0.47461460273213485
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.7195828805050976,
+      "auc": 0.6992841438611501,
+      "bce_loss": 0.5636697470602352,
+      "epoch": 1.0,
+      "f1": 0.8202908644677711
+    },
+    {
+      "accuracy": 0.7161413859131605,
+      "auc": 0.7007283585808597,
+      "bce_loss": 0.5688441505900363,
+      "epoch": 2.0,
+      "f1": 0.8100103914097678
+    },
+    {
+      "accuracy": 0.7172540495782228,
+      "auc": 0.6933173075892005,
+      "bce_loss": 0.5888029773323653,
+      "epoch": 3.0,
+      "f1": 0.8200754145329404
+    },
+    {
+      "accuracy": 0.7150287222480981,
+      "auc": 0.687622904728125,
+      "bce_loss": 0.636140675986353,
+      "epoch": 4.0,
+      "f1": 0.8124137696094296
+    },
+    {
+      "accuracy": 0.7099052942089737,
+      "auc": 0.6831395255321387,
+      "bce_loss": 0.634005557193253,
+      "epoch": 5.0,
+      "f1": 0.8062961107175561
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.7192464938156601,
+    "auc": 0.7033761468718109,
+    "bce_loss": 0.5631701580364441,
+    "f1": 0.8154573595945164
+  },
+  "checkpoint_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\config\\training_config.json",
+  "created_at": "2026-03-27T23:14:13+00:00",
+  "extra": {
+    "best_epoch": 1,
+    "completed_epochs": 4,
+    "stopped_early": true
+  },
+  "metrics_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07\\metrics\\metrics.json",
+  "model_name": "SAKTBaseline",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_sakt_baseline_seed07",
+  "run_name": "ednet1k_sakt_baseline_seed07",
+  "train_history": [
+    {
+      "accuracy": 0.7118663766624052,
+      "auc": 0.6954924301640578,
+      "bce_loss": 0.5743581311513438,
+      "epoch": 1.0,
+      "f1": 0.8119745167721245,
+      "loss": 0.5743472489431218
+    },
+    {
+      "accuracy": 0.7348010648248076,
+      "auc": 0.7681436743921589,
+      "bce_loss": 0.5272222136370154,
+      "epoch": 2.0,
+      "f1": 0.8179656278016684,
+      "loss": 0.5272138536936924
+    },
+    {
+      "accuracy": 0.7438387930509666,
+      "auc": 0.7877885519019813,
+      "bce_loss": 0.5094227318869899,
+      "epoch": 3.0,
+      "f1": 0.8219704982979787,
+      "loss": 0.5094080706476131
+    },
+    {
+      "accuracy": 0.7520242186764958,
+      "auc": 0.8022806401857655,
+      "bce_loss": 0.49494814748624405,
+      "epoch": 4.0,
+      "f1": 0.8263360257980498,
+      "loss": 0.4949405483171879
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.7192464938156601,
+      "auc": 0.7033761468718109,
+      "bce_loss": 0.5631701580364441,
+      "epoch": 1.0,
+      "f1": 0.8154573595945164
+    },
+    {
+      "accuracy": 0.7180820783522227,
+      "auc": 0.7026692825909997,
+      "bce_loss": 0.5675030863223832,
+      "epoch": 2.0,
+      "f1": 0.8125526899850317
+    },
+    {
+      "accuracy": 0.7160378823164105,
+      "auc": 0.6995213311585793,
+      "bce_loss": 0.5788633770641971,
+      "epoch": 3.0,
+      "f1": 0.8103418478448723
+    },
+    {
+      "accuracy": 0.708093981265849,
+      "auc": 0.692472987518306,
+      "bce_loss": 0.6005920668420717,
+      "epoch": 4.0,
+      "f1": 0.7981895919426106
+    }
+  ]
+}

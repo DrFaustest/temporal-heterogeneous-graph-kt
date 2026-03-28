@@ -1,0 +1,50 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.25,
+    "auc": 0.6666666666666666,
+    "bce_loss": 0.7310113239836281,
+    "f1": 0.4
+  },
+  "checkpoint_path": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\config\\training_config.json",
+  "created_at": "2026-03-23T00:33:55+00:00",
+  "extra": {},
+  "metrics_path": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\metrics\\metrics.json",
+  "model_name": "LogisticBaseline",
+  "run_dir": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments",
+  "run_name": "phase12_baseline_assistments",
+  "train_history": [
+    {
+      "accuracy": 0.0,
+      "auc": 0.0,
+      "bce_loss": 0.7238163586577774,
+      "epoch": 1.0,
+      "f1": 0.0,
+      "loss": 0.7238163586577773
+    },
+    {
+      "accuracy": 0.75,
+      "auc": 0.3333333333333333,
+      "bce_loss": 0.6818853573976329,
+      "epoch": 2.0,
+      "f1": 0.8571428571428571,
+      "loss": 0.6818853573976329
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.75,
+      "auc": 0.6666666666666666,
+      "bce_loss": 0.692135464292998,
+      "epoch": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "accuracy": 0.25,
+      "auc": 0.6666666666666666,
+      "bce_loss": 0.7310113239836281,
+      "epoch": 2.0,
+      "f1": 0.4
+    }
+  ]
+}

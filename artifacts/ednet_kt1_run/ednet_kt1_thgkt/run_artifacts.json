@@ -1,0 +1,65 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.7317816968267211,
+    "auc": 0.7542469063752392,
+    "bce_loss": 0.5332238087409007,
+    "f1": 0.8139629242854577
+  },
+  "checkpoint_path": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\config\\training_config.json",
+  "created_at": "2026-03-22T21:08:59+00:00",
+  "extra": {},
+  "metrics_path": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt\\metrics\\metrics.json",
+  "model_name": "THGKTModel",
+  "run_dir": "artifacts\\ednet_kt1_run\\ednet_kt1_thgkt",
+  "run_name": "ednet_kt1_thgkt",
+  "train_history": [
+    {
+      "accuracy": 0.7186211691737188,
+      "auc": 0.7314089360489838,
+      "bce_loss": 0.5543931698534328,
+      "epoch": 1.0,
+      "f1": 0.811618561521239,
+      "loss": 0.554395026836421
+    },
+    {
+      "accuracy": 0.7352048371680908,
+      "auc": 0.7673473673397261,
+      "bce_loss": 0.5282088003405643,
+      "epoch": 2.0,
+      "f1": 0.8188638213093133,
+      "loss": 0.5282082265953262
+    },
+    {
+      "accuracy": 0.7391233453250691,
+      "auc": 0.7744916823086709,
+      "bce_loss": 0.5220235073907138,
+      "epoch": 3.0,
+      "f1": 0.8210558747992562,
+      "loss": 0.5220242926136187
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.7318392358813545,
+      "auc": 0.7447619116091435,
+      "bce_loss": 0.5339388788288085,
+      "epoch": 1.0,
+      "f1": 0.823726313400658
+    },
+    {
+      "accuracy": 0.7350374483347238,
+      "auc": 0.7529408094056524,
+      "bce_loss": 0.5306839530589352,
+      "epoch": 2.0,
+      "f1": 0.821865258583729
+    },
+    {
+      "accuracy": 0.7317816968267211,
+      "auc": 0.7542469063752392,
+      "bce_loss": 0.5332238087409007,
+      "epoch": 3.0,
+      "f1": 0.8139629242854577
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "project_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project",
+  "output_root": "artifacts\\ednet20k_suite_smoke_verify",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070"
+  },
+  "source_configs": [
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\phase12\\baseline_assistments.yaml",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\phase12\\thgkt_assistments.yaml",
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\phase12\\thgkt_ablation_assistments.yaml"
+  ],
+  "resolved_configs": [
+    "artifacts\\ednet20k_suite_smoke_verify\\resolved_configs\\baseline_assistments_cuda.json",
+    "artifacts\\ednet20k_suite_smoke_verify\\resolved_configs\\thgkt_assistments_cuda.json",
+    "artifacts\\ednet20k_suite_smoke_verify\\resolved_configs\\thgkt_ablation_assistments_cuda.json"
+  ],
+  "heartbeat_seconds": 5,
+  "runs": [
+    {
+      "run_name": "phase12_baseline_assistments",
+      "config_path": "artifacts\\ednet20k_suite_smoke_verify\\resolved_configs\\baseline_assistments_cuda.json",
+      "run_dir": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\data\\splits.json",
+        "graph": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\data\\graph.json",
+        "sequences": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet20k_suite_smoke_verify\\phase12_baseline_assistments\\config\\experiment_config.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6666666666666666,
+        "accuracy": 0.25,
+        "f1": 0.4,
+        "bce_loss": 0.7310113239836281
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 1.0,
+        "f1": 1.0,
+        "bce_loss": 0.62609167877307
+      }
+    },
+    {
+      "run_name": "phase12_thgkt_assistments",
+      "config_path": "artifacts\\ednet20k_suite_smoke_verify\\resolved_configs\\thgkt_assistments_cuda.json",
+      "run_dir": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\data\\splits.json",
+        "graph": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\data\\graph.json",
+        "sequences": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\config\\experiment_config.json",
+        "concept_report": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\explainability\\concept_importance.json",
+        "concept_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\explainability\\concept_importance.svg",
+        "prerequisite_report": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_assistments\\explainability\\prerequisite_influence.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6666666666666666,
+        "accuracy": 0.25,
+        "f1": 0.4,
+        "bce_loss": 0.9299334518988205
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 0.75,
+        "f1": 0.8571428571428571,
+        "bce_loss": 0.39451799422686595
+      }
+    },
+    {
+      "run_name": "phase12_thgkt_ablation_assistments",
+      "config_path": "artifacts\\ednet20k_suite_smoke_verify\\resolved_configs\\thgkt_ablation_assistments_cuda.json",
+      "run_dir": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\data\\canonical_bundle.json",
+        "splits": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\data\\splits.json",
+        "graph": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\data\\graph.json",
+        "sequences": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\data\\sequences.json",
+        "checkpoint": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\config\\experiment_config.json",
+        "concept_report": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\explainability\\concept_importance.json",
+        "concept_plot": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\explainability\\concept_importance.svg",
+        "prerequisite_report": "artifacts\\ednet20k_suite_smoke_verify\\phase12_thgkt_ablation_assistments\\explainability\\prerequisite_influence.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.6666666666666666,
+        "accuracy": 0.5,
+        "f1": 0.5,
+        "bce_loss": 0.6827878721966892
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 0.75,
+        "f1": 0.8571428571428571,
+        "bce_loss": 0.5171192326929566
+      }
+    }
+  ],
+  "comparison": {
+    "comparison_json": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_metrics.json",
+    "comparison_csv": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_metrics.csv",
+    "comparison_report": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_report.md",
+    "comparison_auc_plot": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_auc.svg",
+    "comparison_accuracy_plot": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_accuracy.svg",
+    "comparison_f1_plot": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_f1.svg",
+    "comparison_bce_loss_plot": "artifacts\\ednet20k_suite_smoke_verify\\comparison\\comparison_bce_loss.svg"
+  }
+}

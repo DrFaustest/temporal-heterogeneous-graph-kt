@@ -1,0 +1,144 @@
+{
+  "best_val_metrics": {
+    "accuracy": 0.7226621125084096,
+    "auc": 0.7238080354829454,
+    "bce_loss": 0.5538738773870757,
+    "f1": 0.8125502815768303
+  },
+  "checkpoint_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\checkpoints\\best_checkpoint.pt",
+  "config_snapshot_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\config\\training_config.json",
+  "created_at": "2026-03-28T04:51:47+00:00",
+  "extra": {
+    "best_epoch": 5,
+    "completed_epochs": 8,
+    "stopped_early": true
+  },
+  "metrics_path": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05\\metrics\\metrics.json",
+  "model_name": "THGKTModel",
+  "run_dir": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\artifacts\\ednet_1k_seed_suite\\ednet1k_thgkt_full_seed05",
+  "run_name": "ednet1k_thgkt_full_seed05",
+  "train_history": [
+    {
+      "accuracy": 0.703841449578553,
+      "auc": 0.6823779393316046,
+      "bce_loss": 0.5824230488924779,
+      "epoch": 1.0,
+      "f1": 0.808772343603708,
+      "loss": 0.5824273868917638
+    },
+    {
+      "accuracy": 0.71686396918428,
+      "auc": 0.7289354864387482,
+      "bce_loss": 0.5566225942676224,
+      "epoch": 2.0,
+      "f1": 0.8106519606935989,
+      "loss": 0.5566300762128213
+    },
+    {
+      "accuracy": 0.7278608865053933,
+      "auc": 0.7521774161851983,
+      "bce_loss": 0.5405789742684883,
+      "epoch": 3.0,
+      "f1": 0.8148895481034197,
+      "loss": 0.5405626128801566
+    },
+    {
+      "accuracy": 0.7346516351480737,
+      "auc": 0.768220105118118,
+      "bce_loss": 0.5280377271295656,
+      "epoch": 4.0,
+      "f1": 0.8175768482971429,
+      "loss": 0.5280273270507777
+    },
+    {
+      "accuracy": 0.7404572548108054,
+      "auc": 0.7799661919568627,
+      "bce_loss": 0.5180354276708822,
+      "epoch": 5.0,
+      "f1": 0.8200778066803251,
+      "loss": 0.5180114381752838
+    },
+    {
+      "accuracy": 0.746030428309729,
+      "auc": 0.7899011426523002,
+      "bce_loss": 0.5089953124737603,
+      "epoch": 6.0,
+      "f1": 0.8230690042064921,
+      "loss": 0.5089850879985294
+    },
+    {
+      "accuracy": 0.7504303021246687,
+      "auc": 0.7983721366805111,
+      "bce_loss": 0.5007958576976698,
+      "epoch": 7.0,
+      "f1": 0.8251357220412595,
+      "loss": 0.5007975563019045
+    },
+    {
+      "accuracy": 0.7548744513993813,
+      "auc": 0.8072737299656557,
+      "bce_loss": 0.49187821433252615,
+      "epoch": 8.0,
+      "f1": 0.8277117572692793,
+      "loss": 0.49187723638126024
+    }
+  ],
+  "val_history": [
+    {
+      "accuracy": 0.7142783211716607,
+      "auc": 0.7010724905727322,
+      "bce_loss": 0.5656520073477093,
+      "epoch": 1.0,
+      "f1": 0.8125424419394269
+    },
+    {
+      "accuracy": 0.7217823319360348,
+      "auc": 0.71455277142743,
+      "bce_loss": 0.5574339716278323,
+      "epoch": 2.0,
+      "f1": 0.81763907734057
+    },
+    {
+      "accuracy": 0.7142006934740982,
+      "auc": 0.7211367310798663,
+      "bce_loss": 0.5568856036349141,
+      "epoch": 3.0,
+      "f1": 0.8026233492378348
+    },
+    {
+      "accuracy": 0.7179009470579103,
+      "auc": 0.7233102414089757,
+      "bce_loss": 0.5561799781969581,
+      "epoch": 4.0,
+      "f1": 0.8065855302842138
+    },
+    {
+      "accuracy": 0.7226621125084096,
+      "auc": 0.7238080354829454,
+      "bce_loss": 0.5538738773870757,
+      "epoch": 5.0,
+      "f1": 0.8125502815768303
+    },
+    {
+      "accuracy": 0.7096465352170988,
+      "auc": 0.7209222681272691,
+      "bce_loss": 0.5625987083702386,
+      "epoch": 6.0,
+      "f1": 0.7958296184428392
+    },
+    {
+      "accuracy": 0.7212130621539099,
+      "auc": 0.7199893574006652,
+      "bce_loss": 0.5792050039809851,
+      "epoch": 7.0,
+      "f1": 0.8154378511717144
+    },
+    {
+      "accuracy": 0.7185995963359727,
+      "auc": 0.7168421852667642,
+      "bce_loss": 0.5834168484883661,
+      "epoch": 8.0,
+      "f1": 0.8099938848606621
+    }
+  ]
+}

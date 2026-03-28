@@ -1,0 +1,52 @@
+{
+  "project_root": "D:\\.Dev\\.UNJOClasses\\ML\\Final Project",
+  "output_root": "artifacts\\final_project_run_terminal_verify",
+  "device": {
+    "requested": "cuda",
+    "selected": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070"
+  },
+  "source_configs": [
+    "D:\\.Dev\\.UNJOClasses\\ML\\Final Project\\configs\\phase12\\thgkt_assistments.yaml"
+  ],
+  "resolved_configs": [
+    "artifacts\\final_project_run_terminal_verify\\resolved_configs\\thgkt_assistments_cuda.json"
+  ],
+  "heartbeat_seconds": 5,
+  "runs": [
+    {
+      "run_name": "phase12_thgkt_assistments",
+      "config_path": "artifacts\\final_project_run_terminal_verify\\resolved_configs\\thgkt_assistments_cuda.json",
+      "run_dir": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments",
+      "artifacts": {
+        "canonical_bundle": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\canonical_bundle.json",
+        "splits": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\splits.json",
+        "graph": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\graph.json",
+        "sequences": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\sequences.json",
+        "checkpoint": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\checkpoints\\best_checkpoint.pt",
+        "metrics": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\metrics.json",
+        "test_metrics": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\test_metrics.json",
+        "test_predictions": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\test_predictions.json",
+        "training_plot": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\plots\\training_curves.svg",
+        "roc_plot": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\plots\\roc_curve.svg",
+        "experiment_config": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\config\\experiment_config.json",
+        "concept_report": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\explainability\\concept_importance.json",
+        "concept_plot": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\explainability\\concept_importance.svg",
+        "prerequisite_report": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\explainability\\prerequisite_influence.json"
+      },
+      "best_val_metrics": {
+        "auc": 0.3333333333333333,
+        "accuracy": 0.5,
+        "f1": 0.5,
+        "bce_loss": 0.7823650503587114
+      },
+      "test_metrics": {
+        "auc": 0.5,
+        "accuracy": 0.5,
+        "f1": 0.6666666666666666,
+        "bce_loss": 0.6454732410817167
+      }
+    }
+  ]
+}

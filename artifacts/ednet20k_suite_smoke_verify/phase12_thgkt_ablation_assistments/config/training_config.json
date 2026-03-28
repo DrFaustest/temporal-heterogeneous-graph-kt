@@ -1,0 +1,8 @@
+{
+  "batch_size": 2,
+  "device": "cuda",
+  "epochs": 2,
+  "learning_rate": 0.01,
+  "random_seed": 44,
+  "run_name": "phase12_thgkt_ablation_assistments"
+}

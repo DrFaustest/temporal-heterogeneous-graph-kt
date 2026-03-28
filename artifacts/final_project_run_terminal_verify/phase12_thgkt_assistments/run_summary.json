@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "canonical_bundle": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\canonical_bundle.json",
+    "checkpoint": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\checkpoints\\best_checkpoint.pt",
+    "concept_plot": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\explainability\\concept_importance.svg",
+    "concept_report": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\explainability\\concept_importance.json",
+    "experiment_config": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\config\\experiment_config.json",
+    "graph": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\graph.json",
+    "metrics": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\metrics.json",
+    "prerequisite_report": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\explainability\\prerequisite_influence.json",
+    "roc_plot": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\plots\\roc_curve.svg",
+    "sequences": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\sequences.json",
+    "splits": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\data\\splits.json",
+    "test_metrics": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\test_metrics.json",
+    "test_predictions": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\metrics\\test_predictions.json",
+    "training_plot": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments\\plots\\training_curves.svg"
+  },
+  "best_val_metrics": {
+    "accuracy": 0.5,
+    "auc": 0.3333333333333333,
+    "bce_loss": 0.7823650503587114,
+    "f1": 0.5
+  },
+  "config_path": "artifacts\\final_project_run_terminal_verify\\resolved_configs\\thgkt_assistments_cuda.json",
+  "run_dir": "artifacts\\final_project_run_terminal_verify\\phase12_thgkt_assistments",
+  "run_name": "phase12_thgkt_assistments",
+  "test_metrics": {
+    "accuracy": 0.5,
+    "auc": 0.5,
+    "bce_loss": 0.6454732410817167,
+    "f1": 0.6666666666666666
+  }
+}

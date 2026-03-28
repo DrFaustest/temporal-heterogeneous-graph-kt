@@ -1,0 +1,4 @@
+rank_by_auc,run_name,model_type,relation_mode,max_users,use_graph_encoder,use_temporal_encoder,use_prerequisite_edges,auc,accuracy,f1,bce_loss,run_dir,config_path
+1,phase12_baseline_assistments,logistic_baseline,none,0,,,,0.5,1.0,1.0,0.62609167877307,artifacts\ednet20k_suite_smoke_verify\phase12_baseline_assistments,artifacts\ednet20k_suite_smoke_verify\resolved_configs\baseline_assistments_cuda.json
+2,phase12_thgkt_assistments,thgkt,transition,0,True,True,True,0.5,0.75,0.8571428571428571,0.39451799422686595,artifacts\ednet20k_suite_smoke_verify\phase12_thgkt_assistments,artifacts\ednet20k_suite_smoke_verify\resolved_configs\thgkt_assistments_cuda.json
+3,phase12_thgkt_ablation_assistments,thgkt,transition,0,False,True,False,0.5,0.75,0.8571428571428571,0.5171192326929566,artifacts\ednet20k_suite_smoke_verify\phase12_thgkt_ablation_assistments,artifacts\ednet20k_suite_smoke_verify\resolved_configs\thgkt_ablation_assistments_cuda.json

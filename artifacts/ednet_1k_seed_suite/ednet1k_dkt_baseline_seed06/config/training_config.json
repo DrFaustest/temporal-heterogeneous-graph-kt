@@ -1,0 +1,10 @@
+{
+  "batch_size": 32,
+  "device": "cuda",
+  "early_stopping_metric": "auc",
+  "early_stopping_patience": 3,
+  "epochs": 20,
+  "learning_rate": 0.001,
+  "random_seed": 6,
+  "run_name": "ednet1k_dkt_baseline_seed06"
+}

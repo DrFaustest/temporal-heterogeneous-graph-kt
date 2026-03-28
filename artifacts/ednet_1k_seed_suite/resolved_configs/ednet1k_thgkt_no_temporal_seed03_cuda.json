@@ -1,0 +1,52 @@
+{
+  "run": {
+    "name": "ednet1k_thgkt_no_temporal_seed03"
+  },
+  "dataset": {
+    "name": "ednet_path",
+    "path": "data/raw/ednet/KT1",
+    "contents_path": "data/raw/ednet/contents",
+    "max_users": 1000,
+    "relation_mode": "transition"
+  },
+  "preprocessing": {
+    "min_interactions_per_student": 4,
+    "drop_interactions_without_concepts": true
+  },
+  "split": {
+    "strategy": "student_chronological",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "random_seed": 3
+  },
+  "graph": {
+    "interaction_edge_split": "train",
+    "include_student_exposure_edges": true,
+    "include_reverse_edges": false
+  },
+  "sequence": {
+    "max_history_length": 128
+  },
+  "training": {
+    "epochs": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "device": "cuda",
+    "random_seed": 3,
+    "early_stopping_patience": 3
+  },
+  "explainability": {
+    "enabled": false
+  },
+  "model": {
+    "type": "thgkt",
+    "hidden_dim": 32,
+    "temporal_hidden_dim": 32,
+    "use_graph_encoder": true,
+    "use_temporal_encoder": false,
+    "use_time_features": false,
+    "use_prerequisite_edges": true,
+    "dropout": 0.1
+  }
+}
