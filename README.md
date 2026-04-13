@@ -34,16 +34,14 @@ The repository includes:
 
 ## Contributions
 
-This project is organized around four concrete contributions:
+This project is organized around four concrete implementation components:
 
 - a unified canonical pipeline for educational interaction data that supports both ASSISTments-style data and EdNet while keeping dataset-specific logic isolated inside adapters
 - a hybrid THGKT architecture that fuses heterogeneous structural context with temporal student interaction modeling for next-response prediction
 - configurable concept-relation construction strategies that allow prerequisite-style, transition-based, and co-occurrence-based graph variants to be compared under the same training framework
 - a reproducible ablation benchmark suite with saved artifacts, config snapshots, checkpoints, plots, and comparison reports for fair model evaluation
 
-The intended contribution is therefore not only a single model implementation. It is a research workflow for testing whether heterogeneous graph structure adds predictive value beyond standard sequence-based knowledge tracing.
-
-To our knowledge, this repository is among the first course-scale implementations that jointly model heterogeneous student-question-concept graphs with configurable prerequisite generation and temporal knowledge tracing in a fully reproducible benchmark framework.
+The repository is therefore not framed as a novelty claim about a new class of knowledge tracing model. It provides an implementation and evaluation workflow for testing whether heterogeneous graph structure adds predictive value beyond standard sequence-based knowledge tracing in this project setting.
 
 ## Relation To Prior Knowledge Tracing Models
 
